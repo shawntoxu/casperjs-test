@@ -32,10 +32,6 @@ casper.waitUntilVisible("a.anonymous", function() {
            pass.value='111111';}
 
 );
-   /** this.fill('div.content-wrap',{
-		'email':'shawn.wang@yeahmobi.com',
-                'password':'963852'
-            },false);**/
    //点击登陆 
    this.echo("Moving over summit button");
     this.mouse.move("a.login");
